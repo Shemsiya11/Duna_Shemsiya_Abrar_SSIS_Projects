@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="1"
-  DTS:VersionGUID="{68B38726-6627-4B60-822D-AF4331B9910F}">
+  DTS:VersionBuild="2"
+  DTS:VersionGUID="{5A51C609-F7C0-42E2-A3E0-C27940F0120C}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:Variables />
@@ -30,12 +30,12 @@
       <GraphLayout
         Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <AnnotationLayout
-          Text="hi"
+          Text="hello every one "
           ParentId="Package"
           FontInfo="{assembly:Null}"
-          Size="38.6666666666667,60"
+          Size="113,60"
           Id="5848000e-80c7-490d-b24b-1e3c8582d315"
-          TopLeft="348.124994812533,257.333333333333" />
+          TopLeft="138.43749793712,89.6666666666666" />
       </GraphLayout>
     </LayoutInfo>
   </Package>
