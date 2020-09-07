@@ -1,0 +1,19 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="OData Source 1"
+  DTS:DTSID="{30605116-64B5-42AA-A50F-FA9A45C86789}"
+  DTS:CreationName="ODATA">
+  <DTS:PropertyExpression
+    DTS:Name="ConnectionString">@[$Project::ODataSource1_ConnectionString1]</DTS:PropertyExpression>
+  <DTS:ObjectData>
+    <ODataConnectionManager
+      UserName="sharepoint@dunatk.com"
+      Url="https://dunatkcom.sharepoint.com/sites/LendingQB/_vti_bin/listdata.svc"
+      ConnectionString="Service Document Url=https://dunatkcom.sharepoint.com/sites/LendingQB/_vti_bin/listdata.svc;Include Atom Elements=Auto;Include Expanded Entities=False;Integrated Security=False;User ID=sharepoint@dunatk.com;Persist Security Info=False;Time Out=600;Schema Sample Size=25;Retry Count=5;Retry Sleep=100;Keep Alive=False;Max Received Message Size=4398046511104"
+      MicrosoftOnlineServicesAuth="True"
+      AuthType="MicrosoftOnlineService">
+      <Password
+        Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAVHFF/6SS60+xlimQas8F1wAAAAACAAAAAAAQZgAAAAEAACAAAAAd4GEvcL4Ba05PVJI+JjcsxhtmchFTsumpWjqxevps8QAAAAAOgAAAAAIAACAAAAD8AK8aV6QJYCTtYZMJgv8Yb5HvSnITIdDdCDV7PWqn+0AAAAD8OAlT+WR9rv5JWFtmPc1q/1BqB2D1iqCEDBgXUMCDaaRvCk3meaPhs5oC6JSuaXhjCXD1wkxInBopYNNOf2A8QAAAABgl04+9jsEY/uUZUYRPhaboWt3BvvILPS7ziycFHYeRcZBjjuZmdmDY9HcEC8dm2zJyTOq0+Hbal9+mwj119IU=</Password>
+    </ODataConnectionManager>
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
